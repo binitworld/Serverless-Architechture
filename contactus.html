@@ -7,17 +7,20 @@
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
+      background-image: url("binitworld.gif");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       margin: 0;
       padding: 0;
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 100vh;
+      height: 400vh;
     }
 
     form {
-      background-color: #fff;
+      background-color: transparent;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -26,14 +29,20 @@
 
     h2 {
       text-align: center;
-      color: #333;
+      color: #0f7840;
+      margin-bottom: 20px;
+      font-size: 56px;
+    }
+    h1 {
+      text-align: center;
+      color: #59eade;
       margin-bottom: 20px;
     }
 
     label {
       display: block;
       margin: 10px 0 5px;
-      color: #555;
+      color: #000;
     }
 
     input,
@@ -57,13 +66,14 @@
       background-color: #45a049;
     }
 
-    /* Additional styles for animation */
     form:hover {
       transform: scale(1.05);
+      filter: drop-shadow(0 0 15px #0ef);
+
     }
 
-    /* Additional styles for footer */
     footer {
+      color: #58ece5;
       margin-top: 20px;
       font-size: 18px;
       text-align: center;
@@ -72,7 +82,7 @@
 </head>
 <body>
 
-  <h2>Welcome to my AWS Project Task</h2>
+  <h1>Registration Form </h1>
 
   <form action="/dev" method="post">
     <h2>Contact Us</h2>
@@ -92,7 +102,7 @@
   </form>
 
   <footer>
-    An AWS Project by Avinash Reddy Thipparthi
+    ©2024-Project by Binit Bhushan
   </footer>
 
   <!-- Simple JavaScript for animation -->
